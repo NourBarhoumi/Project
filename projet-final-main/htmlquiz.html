@@ -1,0 +1,184 @@
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Qui - Html Quiz</title>
+      <link rel="shortcut icon" href="/res/Webp.net-resizeimage.png" type="image/x-icon">
+      <link rel="stylesheet" href="./css/css.css">
+      <link rel="stylesheet" href="./css/css_quiz.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <img src="/res/1562258885528-removebg-preview.png" alt="">
+        <ul>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </ul>
+      </header>
+      <div class="box-home custom-box">
+        <h3>Instruction</h3>
+        <p>Total number of questions: <span class="total-questions">5</span></p>
+        <button type="button" class="btn">Start</button>
+      </div>
+      <div class="box-quiz custom-box">
+        <div class="question-number">
+          Question 1
+        </div>
+        <div class="question-text">
+          What is the doctype of an HTML5 document?
+        </div>
+        <div class="option-container">
+          <div class="options">!DOCTYPE html5</div>
+          <div class="options">!DOCTYPE html</div>
+          <div class="options">!DOCTYPE html PUBLIC "-//W3C//DTD HTML5.0 Strict//EN"</div>
+        </div>
+      </div>
+      <div class="next-question-btn">
+        <button type="button" class="btn">Next</button>
+      </div>
+      <div class="answer-indicator">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <!-- 
+        <main class="quiz">
+        <h1>Quiz HTML5</h1>
+        <div class="questions">
+          <div class="question">
+            <p>Quel est le doctype d'un document HTML5 ?</p>
+            <input type="radio" />
+            <label for="q0r1">&lt;!DOCTYPE html5&gt;</label>
+            <br />
+            <input type="radio" />
+            <label for="rep">&lt;!DOCTYPE html&gt;</label>
+            <br />
+            <input type="radio" />
+            <label for="rep"
+              >&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML5.0 Strict//EN"
+              &gt;</label
+            >
+          </div>
+        </div>
+        <div class="questions">
+          <div class="question">
+            <p>
+              Quelle est la syntaxe pour déclarer l'encodage des caractères du
+              document en UTF-8 ?
+            </p>
+            <input type="radio" />
+            <label for="rep"
+              >&lt;meta encoding="text/html; charset=utf-8"&gt;</label
+            ><br />
+            <input type="radio" />
+            <label for="rep">&lt;meta charset="text/html; UTF-8"&gt;</label>
+            <br />
+            <input type="radio" />
+            <label for="rep">&lt;meta charset="utf-8"&gt;</label>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="question">
+            <p>
+              Quelle nouvelle balise de section permet de regrouper un contenu
+              tangentiel au contenu principal du document ?
+            </p>
+            <input type="radio" />
+            <label for="rep">&lt;section id="sidebar"&gt;</label><br />
+            <input type="radio" />
+            <label for="rep">&lt;sidebar&gt;</label>
+            <br />
+            <input type="radio" />
+            <label for="rep">&lt;aside&gt;</label>
+            <br />
+            <input type="radio" />
+            <label for="rep">&lt;details&gt;</label>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="question">
+            <p>
+              La nouvelle balise &lt;time&gt; permet de baliser une date
+              structurée. Quelle serait sa syntaxe pour le 1er avril 2012 à
+              13h37 ?
+            </p>
+            <input type="radio" />
+            <label for="rep"
+              >&lt;time datetime="2012-04-01T13:37:00Z"&gt;&lt;/time&gt;</label
+            ><br />
+            <input type="radio" />
+            <label for="rep"
+              >&lt;time value="2012-04-01 13:37"&gt;&lt;/time&gt;</label
+            >
+            <br />
+            <input type="radio" />
+            <label for="rep"
+              >&lt;time datetime="01/04/2012 13H37M00S"&gt;&lt;/time&gt;</label
+            >
+          </div>
+        </div>
+        <div class="questions">
+          <div class="question">
+            <p>
+              À partir de quelle version d'Internet Explorer peut-on utiliser
+              nativement les éléments de section HTML5 (sans hack ou script
+              complémentaire) ?
+            </p>
+            <input type="radio" />
+            <label for="rep">Internet Explorer 8</label><br />
+            <input type="radio" />
+            <label for="rep">Internet Explorer 9</label>
+            <br />
+            <input type="radio" />
+            <label for="rep">Internet Explorer 10</label>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="question">
+            <p>
+              Quelle balise doit permettre l'inclusion de sous-titres textes
+              dans les vidéos lues avec &lt;vide&gt; ?
+            </p>
+            <input type="radio" />
+            <label for="rep">&lt;track src="soustitres.vtt"&gt;</label><br />
+            <input type="radio" />
+            <label for="rep">&lt;subtitle source="soustitres.srt"&gt;</label>
+            <br />
+            <input type="radio" />
+            <label for="rep">&lt;captions source="soustitres.srt"&gt;</label>
+          </div>
+        </div>
+      </main>
+       -->
+      <footer>
+        <p>© 2021 Qui</p>
+      </footer>
+    </body>
+  </html>
+</html>
